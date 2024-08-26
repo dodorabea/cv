@@ -51,7 +51,9 @@
   const preloader = document.querySelector('#preloader');
   if (preloader) {
     window.addEventListener('load', () => {
-      preloader.remove();
+      setTimeout(() => {
+        preloader.remove();
+      }, 5000); // 2000 milliseconds = 2 seconds
     });
   }
 
