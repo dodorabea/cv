@@ -56,7 +56,11 @@
 :root {
   scroll-behavior: smooth;
 }
-
+.list-country{
+  list-style-type: none;
+  padding: 0;
+  font-size: 15px;
+}
 /*--------------------------------------------------------------
 # General Styling & Shared Classes
 --------------------------------------------------------------*/
@@ -581,9 +585,13 @@ section,
 
 @media (max-width: 768px) {
   .hero h2 {
-    font-size: 32px;
+    font-size: 28px;
   }
-
+  .list-country
+  {
+    font-size:11px;
+    margin-bottom: 0;
+  }
   .hero p {
     font-size: 20px;
   }
